@@ -2,5 +2,7 @@ var playlist = {
   artist: "song"
 };
 function updatePlaylist(playlist, artistName, songTitle) {
-artistName.songTitle = 'cheese'
+  playlist[artistName] = songTitle
+
+    return obj
 }
